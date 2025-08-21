@@ -1,0 +1,31 @@
+{
+  "headers": [
+    {
+      "source": "/:all*(ttf|otf|woff|woff2)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/git",
+      "destination": "https://github.com/samfint"
+    },
+    {
+      "source": "/ln",
+      "destination": "https://www.linkedin.com/in/dante-rodriguez-chambi/"
+    },
+    {
+      "source": "/tw",
+      "destination": "https://x.com/dani218002"
+    },
+    {
+      "source": "/in",
+      "destination": "https://www.instagram.com/dantesamuelrodriguez"
+    }
+  ]
+}

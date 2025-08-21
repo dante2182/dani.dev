@@ -1,12 +1,14 @@
-import About from "@/components/about"
-import FeaturedProjectCard from "@/components/featuredProjectCard"
+import About from '@/components/about'
+import FeaturedProjects from './components/featuredProjects'
+import Experience from './components/experience'
 
 function App() {
   return (
-    <div className="w-full h-full">
+    <main className="container max-w-4xl flex-1 flex flex-col mx-auto mt-10">
       <About />
-      <FeaturedProjectCard />
-    </div>
+      <FeaturedProjects />
+      <Experience />
+    </main>
   )
 }
 
