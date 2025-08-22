@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://dani-dev-neon.vercel.app/">
-    <img src="static/images/page.png" />
+    <img src="static/images/page_web.png" />
   </a>
   <p>
     <strong>dani.dev</strong>
