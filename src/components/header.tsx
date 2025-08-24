@@ -7,7 +7,7 @@ export default function Header() {
   const SocialICons = [
     {
       name: 'Github',
-      url: 'https://github.com/samfint',
+      url: 'https://github.com/dante2182',
       icon: GitHub,
     },
     {
