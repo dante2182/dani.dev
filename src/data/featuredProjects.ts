@@ -15,7 +15,7 @@ export const featuredProjects: iProjects[] = [
     description:
       '📦 A open-source inventory management system that helps you to manage your inventory.',
     tags: ['React', 'TailwindCSS', 'Prisma', 'Express'],
-    url: '',
+    url: 'https://vaultify-delta.vercel.app',
     githubUrl: 'https://github.com/dante2182/vaultify',
     icon: 'https://raw.githubusercontent.com/dante2182/vaultify/ed97be04766044d74a0e744b167b6406a14e67a6/client/public/inventory.svg',
   },
