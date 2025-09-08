@@ -2,6 +2,7 @@ import X from '@/icons/x.tsx'
 import Linkedin from '@/icons/linkedin.tsx'
 import GitHub from '@/icons/github.tsx'
 import Instagram from '@/icons/instagram.tsx'
+import { ModeToggle } from './mode-toggle'
 
 export default function Header() {
   const SocialICons = [
@@ -33,7 +34,7 @@ export default function Header() {
         <nav className="flex justify-between items-center py-6">
           <a
             href="/"
-            className="text-gray-400 flex items-center text-2xl font-bold hover:text-white duration-250"
+            className="dark:text-gray-400 flex items-center text-2xl font-bold dark:hover:text-white duration-250"
           >
             <span>dante.dev</span>
           </a>
@@ -53,6 +54,7 @@ export default function Header() {
                 </a>
               </div>
             ))}
+            <ModeToggle />
           </div>
         </nav>
       </div>
